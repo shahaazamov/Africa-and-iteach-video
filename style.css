@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+   
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container .box {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    margin: 40px;
+}
+
+.container .box video{
+    position: absolute;
+    width: 100%;
+    top:0;
+    left:0;
+    height:100%;
+    object-fit: cover;
+}
+.img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: auto;
+    mix-blend-mode: screen;
+}
